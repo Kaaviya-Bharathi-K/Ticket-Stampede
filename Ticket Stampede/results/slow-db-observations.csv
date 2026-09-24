@@ -1,0 +1,2 @@
+status,slow_window_seconds,concurrency,total_requests,successful_purchases,sold_out_responses,errors,median_latency_ms,p99_latency_ms,sold_count,actual_ticket_count,duplicate_ticket_number_count,invariant_1,invariant_2,invariant_3,invariant_4
+NOT EXECUTED,10,100,1000,,,,,,,,,NOT EXECUTED,NOT EXECUTED,NOT EXECUTED,NOT EXECUTED

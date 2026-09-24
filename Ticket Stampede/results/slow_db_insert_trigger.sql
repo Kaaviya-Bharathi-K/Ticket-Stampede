@@ -1,0 +1,8 @@
+DELIMITER $$
+CREATE TRIGGER ticket_stampede_slow_insert
+BEFORE INSERT ON tickets
+FOR EACH ROW
+BEGIN
+  DO SLEEP(0.25);
+END$$
+DELIMITER ;
